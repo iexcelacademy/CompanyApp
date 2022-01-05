@@ -39,7 +39,7 @@ public class Employee extends HttpServlet {
 		// TODO Auto-generated method stub
 		 response.setContentType("text/html");  
 		    PrintWriter out = response.getWriter();  
-		    String eName=request.getParameter("eName");
+		    String eName=request.getParameter("eeName");
 		    String dob=request.getParameter("dob");
 		    String email=request.getParameter("emailId");
 		    String password=request.getParameter("pass");
